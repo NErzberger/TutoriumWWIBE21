@@ -1,4 +1,4 @@
-package veranstalltung_1;
+package veranstaltung_1;
 
 public class Konstanten {
 	

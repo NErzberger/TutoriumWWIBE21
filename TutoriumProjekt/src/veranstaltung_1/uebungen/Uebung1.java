@@ -1,4 +1,4 @@
-package veranstalltung_1.uebungen;
+package veranstaltung_1.uebungen;
 
 public class Uebung1 {
 
