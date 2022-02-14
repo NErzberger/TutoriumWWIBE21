@@ -15,5 +15,7 @@ public class BoolscherAusdruck {
 		// über Variablen des Typs boolean
 		boolean variableDieStimmt = true;
 		if(variableDieStimmt) {}
+		
+		
 	}
 }
