@@ -16,6 +16,7 @@ public class BoolscherAusdruck {
 		boolean variableDieStimmt = true;
 		if(variableDieStimmt) {}
 		
+		if((var1 == var2) && (var1 == 5)) {} 
 		
 	}
 }
