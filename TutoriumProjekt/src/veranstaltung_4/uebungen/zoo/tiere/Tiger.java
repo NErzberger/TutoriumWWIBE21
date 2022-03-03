@@ -6,8 +6,8 @@ import veranstaltung_4.uebungen.zoo.Tier;
 
 public class Tiger extends Tier implements Fleischfresser{
 
-	public Tiger(double gewicht, double groeﬂe, int alterInMonaten) {
-		super(gewicht, groeﬂe, alterInMonaten);
+	public Tiger(double gewicht, double groesse, int alter) {
+		super(gewicht, groesse, alter);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -20,13 +20,13 @@ public class Tiger extends Tier implements Fleischfresser{
 	@Override
 	public void wachsen() {
 		setGewicht(getGewicht()*1.3);
-		setGroeﬂe(getGroeﬂe()*1.15);
-		setAlterInMonaten(getAlterInMonaten()+1);
+		setGroesse(getGroesse()*1.15);
+		
 	}
 
 	@Override
 	public void fressen(Fleischnahrung nahrung) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

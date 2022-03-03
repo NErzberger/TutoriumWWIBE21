@@ -6,8 +6,8 @@ import veranstaltung_4.uebungen.zoo.Tier;
 
 public class Krokodil extends Tier implements Fleischfresser{
 
-	public Krokodil(double gewicht, double groeﬂe, int alterInMonaten) {
-		super(gewicht, groeﬂe, alterInMonaten);
+	public Krokodil(double gewicht, double groesse, int alter) {
+		super(gewicht, groesse, alter);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -20,13 +20,13 @@ public class Krokodil extends Tier implements Fleischfresser{
 	@Override
 	public void wachsen() {
 		setGewicht(getGewicht()*1.5);
-		setGroeﬂe(getGroeﬂe()*1.2);
-		setAlterInMonaten(getAlterInMonaten()+1);
+		setGroesse(getGroesse()*1.2);
+		
 	}
 
 	@Override
 	public void fressen(Fleischnahrung nahrung) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

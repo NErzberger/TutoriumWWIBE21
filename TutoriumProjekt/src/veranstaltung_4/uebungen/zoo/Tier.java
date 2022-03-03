@@ -1,40 +1,51 @@
 package veranstaltung_4.uebungen.zoo;
 
-public abstract class Tier implements Fleischnahrung {
+public class Tier implements Fleischnahrung, Lebewesen{
 
 	private double gewicht;
-	private double groeﬂe;
-	private int alterInMonaten;
+	private double groesse;
+	private int alter;
 	
+	@Override
 	public double getGewicht() {
 		return this.gewicht;
 	}
 
-	public double getGroeﬂe() {
-		return groeﬂe;
+	public double getGroesse() {
+		return groesse;
 	}
 
-	public void setGroeﬂe(double groeﬂe) {
-		this.groeﬂe = groeﬂe;
+	public void setGroesse(double groesse) {
+		this.groesse = groesse;
 	}
 
-	public int getAlterInMonaten() {
-		return alterInMonaten;
+	public int getAlter() {
+		return alter;
 	}
 
-	public void setAlterInMonaten(int alterInMonaten) {
-		this.alterInMonaten = alterInMonaten;
+	public void setAlter(int alter) {
+		this.alter = alter;
 	}
 
 	public void setGewicht(double gewicht) {
 		this.gewicht = gewicht;
 	}
-
-	public Tier(double gewicht, double groeﬂe, int alterInMonaten) {
+	
+	public Tier(double gewicht, double groesse, int alter) {
 		this.gewicht = gewicht;
-		this.groeﬂe = groeﬂe;
-		this.alterInMonaten = alterInMonaten;
+		this.groesse = groesse;
+		this.alter = alter;
 	}
-	
-	
+
+	@Override
+	public void trinken() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void wachsen() {
+		// TODO Auto-generated method stub
+		
+	}
 }

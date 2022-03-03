@@ -6,8 +6,8 @@ import veranstaltung_4.uebungen.zoo.Tier;
 
 public class Giraffe extends Tier implements Pflanzenfresser{
 
-	public Giraffe(double gewicht, double groeﬂe, int alterInMonaten) {
-		super(gewicht, groeﬂe, alterInMonaten);
+	public Giraffe(double gewicht, double groesse, int alter) {
+		super(gewicht, groesse, alter);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -20,13 +20,13 @@ public class Giraffe extends Tier implements Pflanzenfresser{
 	@Override
 	public void wachsen() {
 		setGewicht(getGewicht()*1.1);
-		setGroeﬂe(getGroeﬂe()*1.3);
-		setAlterInMonaten(getAlterInMonaten()+1);
+		setGroesse(getGroesse()*1.3);
+		
 	}
 
 	@Override
 	public void fressen(Pflanzennahrung nahrung) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

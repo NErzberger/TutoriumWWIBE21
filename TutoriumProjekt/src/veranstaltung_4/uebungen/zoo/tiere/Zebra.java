@@ -4,11 +4,10 @@ import veranstaltung_4.uebungen.zoo.Pflanzenfresser;
 import veranstaltung_4.uebungen.zoo.Pflanzennahrung;
 import veranstaltung_4.uebungen.zoo.Tier;
 
-public class Zebra  extends Tier implements Pflanzenfresser{
+public class Zebra extends Tier implements Pflanzenfresser{
 
-
-	public Zebra(double gewicht, double groeﬂe, int alterInMonaten) {
-		super(gewicht, groeﬂe, alterInMonaten);
+	public Zebra(double gewicht, double groesse, int alter) {
+		super(gewicht, groesse, alter);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -21,13 +20,13 @@ public class Zebra  extends Tier implements Pflanzenfresser{
 	@Override
 	public void wachsen() {
 		setGewicht(getGewicht()*1.05);
-		setGroeﬂe(getGroeﬂe()*1.4);
-		setAlterInMonaten(getAlterInMonaten()+1);
+		setGroesse(getGroesse()*1.4);
+		
 	}
 
 	@Override
 	public void fressen(Pflanzennahrung nahrung) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

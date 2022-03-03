@@ -1,9 +1,12 @@
 package veranstaltung_4.uebungen.zoo;
 
-public class Blätter implements Pflanzennahrung {
+public class Blaetter implements Pflanzennahrung{
+	
 	private double gewicht;
-
+	
+	@Override
 	public double getGewicht() {
+		
 		return this.gewicht;
 	}
 }
